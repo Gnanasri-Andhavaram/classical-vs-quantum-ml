@@ -48,6 +48,13 @@ For the quantum machine learning experiment:
 
 The VQC was evaluated using 20%, 40%, 60%, and 80% of the available training data while keeping the test set fixed.
 
+Learning approach: This project uses supervised learning for a binary classification task, with labelled data indicating malignant or benign cases.
+
+Classical models: Logistic Regression, Support Vector Machine (SVM), and Random Forest.
+
+Quantum model: Variational Quantum Classifier (VQC), using a quantum feature map and variational circuit.
+
+
 ## Evaluation
 
 The models were evaluated using two classification metrics:
